@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "testCountOdd",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testCountOdd",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testCheckDuplicates",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testCheckDuplicates",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "convertToArrayList",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testConvertToArrayList",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
